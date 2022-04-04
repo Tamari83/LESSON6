@@ -1,0 +1,61 @@
+
+	html, body {
+		width: 100%;
+		height: 100%;
+}
+.image-wraper,
+.image{
+	width: 100%;
+	height: 100%;
+}
+.image-wraper{
+	position: relative;
+	}
+.horse{
+	position: absolute;
+	top: 100px;
+	left: 950px;
+	height: 200px;
+	width: 200px;
+	animation: horse 5s infinite;
+
+	}
+	.dog{
+	position: absolute;
+	top: 400px;
+	left: 550px;
+	height: 150px;
+	width: 290px;
+	animation: dog 15s infinite;
+
+	}
+
+	@keyframes horse{
+	0% {right: 1%; left: 990px;}
+	25% {right: 25%; left: 900px;}
+	40% {right: 50%; left: 800px;}
+	50% {right: 65%; left: 767px;}
+	60% {right: 70%; left: 667px;}
+	70% {right: 85%; left: 567px;}
+	75% {right: 850%; left: 400px;}
+	80% {right: 95%; left: 367px;}
+	85% {right: 95%; left: 267px;}
+	90% {right: 97%; left: 189px;}
+	95% {right: 98%; left: 117px;}
+	960% {right: 99%; left: 107px;}
+	97% {right: 99%; left: 103px;}
+	98% {right: 98%; left: 100px;}
+	100% {right: 99%; left: 97px;}
+}
+
+@keyframes dog {
+ 
+	0% {left: 1%; top: 667px;}
+	25% {left: 25%; top: 667px;}
+	50% {left: 50%; top: 660px;}
+	60% {left: 65%; top: 667px;}
+	75% {left: 80%; top: 667px;}
+	100% {left: 95%; top: 667px;}
+}
+}
+	
